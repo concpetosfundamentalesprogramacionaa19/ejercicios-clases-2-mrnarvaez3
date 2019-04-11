@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author rober
  */
-public class EjemplosClase21 {
+public class EjemplosClase22 {
 
     /**
      * @param args the command line arguments
@@ -35,6 +35,7 @@ public class EjemplosClase21 {
         System.out.println("Ingrese su edad: ");
         edad = entrada.nextInt();
         System.out.println("Ingrese su ciudad: ");
+        entrada.nextLine(); // limpieza del buffer de entrada de datos
         ciudad = entrada.nextLine();
 
         System.out.println("Su nombre es: " + nombre + "\n\n");
